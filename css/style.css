@@ -169,11 +169,25 @@ textarea.form-control {
 
 .site-header .site-logo {
   line-height: 0;
-  padding: 2px 10px;
-  border: 2px solid #000;
-  color: #000;
   font-size: 30px;
   font-weight: bold;
+  text-align: center;
+}
+
+.site-logo-img {
+  text-align: center;
+  width: 12%;
+  min-height: 50px;
+  min-width: 50px;
+}
+
+.site-header.scrolled .site-logo {
+  line-height: 1.5;
+  display: none;
+  position: relative;
+  padding: 2px 10px;
+  color: #fff;
+  font-size: 30px;
 }
 
 .site-header .social li {
@@ -208,17 +222,6 @@ textarea.form-control {
 
 .site-header.scrolled .social li a {
   color: #000;
-}
-
-.site-header.scrolled .site-logo {
-  line-height: 1.5;
-  display: inline-block;
-  position: relative;
-  padding: 2px 10px;
-  border: 2px solid #000;
-  color: #fff;
-  background: #000;
-  font-size: 30px;
 }
 
 .site-header.scrolled .site-nav-toggle {
